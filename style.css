@@ -3,6 +3,7 @@
     font-size: 20px;
 }
 p {margin: 1%;}
+
 body {
     background-image: url("Images/DS_map_back.jpg");
     background-repeat: no-repeat;
@@ -19,21 +20,39 @@ body {
 #margin {margin: 1%;}
 
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    z-index: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-family: fantasy;
   }
   
-  #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+#myBtn:hover {
+    background-color: white;
+  }
+
+#doNotClick {
+    bottom: 12px;
+    right: 12px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-family: fantasy;
+}
+  
+#doNotClick:hover {
+    background-color: red;
   }
